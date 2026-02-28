@@ -6,8 +6,8 @@
     "dev": "concurrently \"npm --prefix frontend run dev\" \"npm --prefix backend run dev\"",
     "lint": "npm --prefix frontend run lint && npm --prefix backend run lint",
     "test": "npm --prefix frontend run test && npm --prefix backend run test",
-    "format": "npm --prefix frontend run format",
-    "format:fix": "npm --prefix frontend run format:fix",
+    "format": "npm --prefix frontend run format && npm --prefix backend run format",
+    "format:fix": "npm --prefix frontend run format:fix && npm --prefix backend run format:fix",
     "seed": "npm --prefix backend run seed"
   },
   "devDependencies": {
